@@ -1,0 +1,71 @@
+#contact {
+  padding: 40px;
+}
+
+#about {
+  padding: 80px;
+}
+
+img {
+  background-image: logo;
+}
+
+.btn {
+  background-color: var(--bs-white);
+}
+
+.btn {
+  margin-right: auto;
+}
+
+.btn-circle {
+  background-color: var(--bs-gray);
+}
+
+div {
+  column-count: initial;
+}
+
+#logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+input {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  background: transparent;
+  color: rgba(242,237,239,0.85);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn {
+}
+
+.btn {
+  /*width: 200px;*/
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #626262;
+  background: transparent;
+  color: #eeebeb;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+div {
+}
+
+.btn {
+}
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+
+</head>
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
+
+<!-- --------------------------------------------------------------------- -->
+<!-- -------------------------- NAVBAR ----------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
+
+<nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+        <button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive"
+                type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                value="Menu"><i class="fa fa-bars"></i></button>
+        <img id="logo" src="assets/img/logo2.png">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item nav-link"></li>
+                <li class="nav-item nav-link"></li>
+                <li class="nav-item nav-link"><a href="/logout" class="nav-link"><em>se déconnecter</em></a></li>
+            </ul>
+        </div>
+        <a><em>{{name}}</em></a>
+    </div>
+</nav>
+
+<!-- --------------------------------------------------------------------- -->
+<!-- ------------------------ BIENVENUE ---------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
+
+<header class="masthead" style="background-image:url('assets/img/intro-bg.jpg');">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h1 class="brand-heading"></h1>
+                    <p class="intro-text">Easy Life&nbsp;</p>
+                    <p class="intro-text">Bienvenue, vous trouvez ici votre bonheur !</p><a
+                        class="btn btn-link btn-circle" role="button" href="#about"><i
+                        class="fa fa-angle-double-down animated"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- --------------------------------------------------------------------- -->
+<!-- ---------------------- SECTION METEO -------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
+
+<section class="text-center content-section" id="about"><i class="fas fa-temperature-low fs-1"></i>
+    <h2>Découvrir votre météo</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <input id="queryLoc" type="text" value="Marseille"/>
+                <input class="btn btn-primary" type="button" onclick="buttonClickGET()" style="color: var(--bs-gray);"
+                       value="Chercher"/>
+                <p id="zone_meteo" style="color: white">Mais quel Température fait-il ?</p>
+                <p id="description" style="color: white"> J'éspére qu'aujourd'hui y a du soleil ! </p>
+                <p id="icon" style="color: white">Comment c'est dehors ?</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------------------------------------------------------- -->
+<!-- ---------------------- SECTION GOOGLE ------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
+
+<section class="text-center download-section content-section" id="download"
+         style="background-image:url('assets/img/downloads-bg.jpg');">
+    <h1 class="text-body">Chercher ce que vous souhaitez sur le net&nbsp;</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <a class="btn btn-primary" role="button" href="https://www.google.fr/"> Google Moi </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------------------------------------------------------- -->
+<!-- --------------------- SECTION ACTU ---------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
+
+<section class="text-center content-section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Actualités Twitter</h2>
+                <p></p>
+                <ul class="list-inline banner-social-buttons">
+                    <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><span class="network-name"></span>Actualités</button></li>
+                    <a class="twitter-timeline" href="https://twitter.com/lemondefr?ref_src=twsrc%5Etfw">Tweets by lemondefr</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------------------------------------------------------- -->
+<!-- ------------------------- COPYRIGHT --------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
+
+<div class="map-clean"></div>
+<footer>
+    <div class="container text-center">
+        <p><br>© Copyright 2022 : SAYAH &amp; REDJEM<br>business Dev4You<br></p>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/Script.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/grayscale.js"></script>
+
+<!-- --------------------------------------------------------------------- -->
+<!-- ------------------------- WIDGET --------------------------------- -->
+<!-- --------------------------------------------------------------------- -->
+
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-a4ee7025-9fa4-497f-ab8e-0887553e0355"></div>
+
+</body>
+</html>
